@@ -1,25 +1,29 @@
 name: lulizhen1986
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7 1/6 * * *'
+    - cron: '25 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: lulizhen1986
         env:
-          c82: ${{ secrets.c82 }}
+          wtla05026: ${{ secrets.wtla05026 }}
         run: |
-          echo $c82 | jq -r .lfykr3 | /bin/bash
-          echo $rq3 | jq -r .plcd53 | /bin/bash
-          echo $uhr7 | jq -r .qgwki485 | /bin/bash
-          echo $q4135 | jq -r .z60 | /bin/bash
-          echo $zvssr55 | jq -r .jfv7 | /bin/bash
-          echo $r4 | jq -r .fdox9 | /bin/bash
-          echo $ykhlu28734 | jq -r .vl45666 | /bin/bash
-          echo $o1028 | jq -r .glzdo53 | /bin/bash
-          echo $ydh353 | jq -r .k710 | /bin/bash
+          echo $wtla05026 | jq -r .n6855 | /bin/bash
+          echo $khr80 | jq -r .rqhe36 | /bin/bash
+          echo $mjw839 | jq -r .nqe6 | /bin/bash
+          echo $eukb857 | jq -r .iq8 | /bin/bash
+          echo $kcc849 | jq -r .tgrwy09 | /bin/bash
+          echo $gtuq9526 | jq -r .dmklt527 | /bin/bash
+          echo $pbr06 | jq -r .hr35 | /bin/bash
+          echo $vb87775 | jq -r .bjpg49356 | /bin/bash
+          echo $gap38216 | jq -r .hl9 | /bin/bash
+          echo $n7 | jq -r .b88 | /bin/bash
+          echo $okmzc81 | jq -r .zl63 | /bin/bash
+          echo $wdjv2 | jq -r .hkjlj2643 | /bin/bash
 
